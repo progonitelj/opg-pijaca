@@ -1,0 +1,7 @@
+composer create-project --prefer-dist cretueusebiu/laravel-vue-spa
+Edit .env and set your database connection details
+php artisan key:generate
+artisan jwt:secret
+
+php artisan migrate
+npm install
