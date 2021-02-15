@@ -34,7 +34,6 @@
               </router-link>
             </div>
           </div>
-
           <div class="form-group row">
             <div class="col-md-7 offset-md-3 d-flex">
               <!-- Submit Button -->
@@ -56,9 +55,11 @@
 import Form from 'vform'
 import Cookies from 'js-cookie'
 import LoginWithGithub from '~/components/LoginWithGithub'
+import VButton from '../../components/Button'
 
 export default {
   components: {
+    VButton,
     LoginWithGithub
   },
 
